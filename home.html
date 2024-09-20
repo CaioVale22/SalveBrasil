@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salve Brasil</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script defer src="app.js"></script>
+    <link rel="shortcut icon" href="images/favicon.ico" type="favicon.ico">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a class="logo" href="home.html">
+                <img src="images/logo.png" alt="Logo"></a>
+            <ul class="navlist">
+                <li><a id="verde" href="home.html">INÍCIO</a></li>
+                <li><a href="conheça.html">CONHEÇA O BRASIL</a></li>
+                <li><a href="doar.html">PORQUE DOAR</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="form-container">
+            <div class="text-home">
+                <div class="text-tittle">
+                    <h1>SALVE A NOSSA<br>VEGETAÇÃO</h1>
+                    <p>
+                        A Salve Brasil faz parte do projeto Caminho Ambiental, esse projeto tem a iniciativa de apresentar para a população brasileira as dificuldades enfrentadas por nossa vegetação, mostrando um caminho seguro para que a população possa apoiar organizações que trabalham em prol da proteção e manutenção do ecossistema brasileiro.
+                    </p>
+                </div>
+            </div>
+            <div class="form">
+                    <form action="#">
+                        <div class="form-header">
+                            <h1>Faça sua inscrição</h1>
+                        </div>
+                        <div class="imput-group">
+                            <div class="imput-box">
+                                <label for="name"><b>NOME</b></label>
+                                <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                            </div>
+
+                            <div class="imput-box">
+                                <label for="email"><b>E-MAIL</b></label>
+                                <input id="email" type="email" name="email" placeholder="Digite seu E-mail" required>
+                            </div>
+
+                            <div class="imput-box">
+                                <label for="estado"><b>SEU ESTADO</b></label>
+                                <select id="estado" name="estado" required>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                            </div>
+
+                            <div class="imput-box">
+                                <label for="regiao"><b>REGIÃO PARA DOAR</b></label>
+                                <select id="regiao" name="regiao" required>
+                                    <option value="Caattinga">Caatinga</option>
+                                    <option value="Cerrado">Cerrado</option>
+                                    <option value="Floresta">Floresta Amazônica</option>
+                                    <option value="Mata">Mata Atlântica</option>
+                                    <option value="Pantanal">Pantanal</option>
+                                    <option value="Pampas">Pampas</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="envie-button">
+                            <button><a href="#">ENVIAR</a></button>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
